@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Lemon-milk';
+    src: url(../font/lemon_milk/LEMONMILK-Medium.otf) format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root{
+
+    /* Paleta de Cores */
+
+    --cor1: #F52516;
+    --cor2: #CA3E34;
+    --cor3: #754845;
+    --cor4: #4B3A39;
+
+    /* Fonts */
+
+    --font-padrao: 'arial';
+    --font1: 'Lemon-milk';
+
+}
+
+header{
+    background: black url(../img/poltronas-teatro.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 150px);
+    color: white;
+    
+}
+
+header div{
+    background-color: rgba(0, 0, 0, 0.696);
+    height: calc(100vh - 150px);
+    padding: 10px;
+    box-sizing: border-box;
+
+    position: relative;
+}
+
+header h1{
+    font-family: var(--font1);
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+main{
+    background-color: white;
+}
+
+main h2{
+    font-family: var(--font1);
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+main section{
+    padding: 10px;
+    height: 500px;
+
+}
+
+main section p{
+   font-size: 1.5em;
+}
+
+#img{
+    background: url(../img/grupo-teatro.avif);
+}
+
+

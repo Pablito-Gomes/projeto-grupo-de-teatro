@@ -182,10 +182,16 @@ main .par .card .saiba-mais:hover{
 .article{
     margin: auto;
     text-align: center;
+    display: block;
 }
 
 main section article p{
     padding: 10px;
+}
+
+#div-do-link{
+    display: block;
+    text-align: center;
 }
 
 main section article a{
@@ -195,7 +201,6 @@ main section article a{
     font-weight: bold;
     padding: 10px;
     border-radius: 7px; 
-    display: block;
     text-align: center;
 }
 

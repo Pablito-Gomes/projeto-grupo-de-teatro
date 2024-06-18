@@ -11,6 +11,7 @@
     font-family: var(--font-padrao);
     text-align: justify;
     box-sizing: border-box;
+    transition: all 0.7s;
 }
 
 :root{
@@ -214,6 +215,10 @@ main section article a:hover{
 #imagem{
     width: 70%;
     margin-top: 50px;
+}
+
+#direita{
+    text-align: center;
 }
 
 footer{

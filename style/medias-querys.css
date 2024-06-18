@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*Telas pequenas (celulares largos ou tablets 600px até 768px)
+
+- Telas medias (tablets 768px até 992px)
+
+- Telas largas (Laptops/desktops 992px 1200px)
+
+- Telas muito largas (tv's acima de 1200px)*/
+
+@media screen and (min-width: 768px){
+    header h1{
+        vertical-align: auto;
+    }
+
+    main .par{
+        
+    }
+
+    main .par #flex{
+        display: flex;
+    }
+
+    main .impar{
+        height: 600px;
+    }
+
+    main .impar .article{
+        display: block;
+        
+    }
+
+    
+
+    #esquerda{
+        display: block;
+        float: left;
+        width: 300px;
+        margin: 20px 20px;
+    }
+
+    #direita{
+        display: block;
+        float: right;
+        width: 300px;
+        
+    }
+   
+   
+}
